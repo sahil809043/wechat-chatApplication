@@ -28,7 +28,7 @@ export const ChatContextProvider = ({ children, currentUser }) => {
 
     // Initial socket setup
     useEffect(() => {
-        const newSocket = io("http://localhost:3000");
+        const newSocket = io("https://wechat-chat.onrender.com");
 
         newSocket.on("connect", () => {
             // console.log("Socket connected:", newSocket.id);
