@@ -1,4 +1,4 @@
-export const baseUrl = 'http://localhost:3000/api/v1';
+export const baseUrl = 'https://wechat-chat.onrender.com/api/v1';
 
 //post request
 export const postRequest = async (url, body, options = {}) => {
