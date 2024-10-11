@@ -8,7 +8,7 @@ const messageRoutes = require('./routes/message.routes.js');
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://wechat-gfwn.onrender.com',
     credentials: true,
 }));
 
