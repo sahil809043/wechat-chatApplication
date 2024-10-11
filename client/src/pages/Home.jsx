@@ -4,10 +4,10 @@ import { useNavigate } from 'react-router-dom';
 export function Home() {
 	const navigate = useNavigate();
 	return (
-		<div className="font-inter bg-gradient-to-t from-blue-50 via-white to-blue-100 dark:bg-gradient-to-t dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
+		<div className="font-inter bg-gradient-to-t from-blue-50 via-white to-blue-100">
 
 			{/* Hero Section */}
-			<section className="bg-gradient-to-r from-white-500 to-white-600 dark:from-purple-700 dark:to-blue-900 py-16 text-gray-700">
+			<section className="bg-gradient-to-r from-white-500 to-white-600 py-16 text-gray-700">
 				<div className=" mx-auto flex flex-col lg:flex-row items-center px-6">
 					<div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0 text-center lg:text-left">
 						<h1 className="text-4xl lg:text-5xl font-extrabold mb-4">
@@ -28,12 +28,12 @@ export function Home() {
 			</section>
 
 			{/* Features Section */}
-			<section className="bg-gradient-to-r from-white-500 to-white-600 dark:from-purple-700 dark:to-blue-900 py-16 text-gray-700">
-				<h2 className="text-3xl font-bold text-center text-white-700 dark:text-purple-400 mb-12">
+			<section className="bg-gradient-to-r from-white-500 to-white-600 py-16 text-gray-700">
+				<h2 className="text-3xl font-bold text-center text-white-700 mb-12">
 					Features 🌟
 				</h2>
 				<div className="mx-auto flex flex-wrap justify-center p-5">
-					<div className="h-80 bg-white dark:bg-gray-700 shadow-lg rounded-lg p-2 m-4 w-full sm:w-80 text-center transform transition hover:scale-105">
+					<div className="h-80 bg-white shadow-lg rounded-lg p-2 m-4 w-full sm:w-80 text-center transform transition hover:scale-105">
 						<img
 							src="https://img-cdn.pixlr.com/image-generator/history/66a7c5ad3da6bb56a4697cf7/c16cc45e-c2c4-4c20-a86a-9dde7a05151f/preview.webp"
 							alt="Real-Time Messaging"
@@ -42,7 +42,7 @@ export function Home() {
 						<h3 className="text-xl font-bold mb-2">Real-Time Messaging 📲</h3>
 						<p>Chat with your friends instantly with our real-time messaging features.</p>
 					</div>
-					<div className="h-80 bg-white dark:bg-gray-700 shadow-lg rounded-lg p-2 m-4 w-full sm:w-80 text-center transform transition hover:scale-105">
+					<div className="h-80 bg-white shadow-lg rounded-lg p-2 m-4 w-full sm:w-80 text-center transform transition hover:scale-105">
 						<img
 							src="https://img-cdn.pixlr.com/image-generator/history/66a7c63696b2c74df6c8c828/ed99ebe7-9780-4825-aedf-8698ffa74a47/preview.webp"
 							alt="Secure Conversations"
@@ -51,7 +51,7 @@ export function Home() {
 						<h3 className="text-xl font-bold mb-2">Secure Conversations 🔒</h3>
 						<p>Your privacy is our priority. All chats are end-to-end encrypted for your security.</p>
 					</div>
-					<div className="h-80 bg-white dark:bg-gray-700 shadow-lg rounded-lg p-2 m-4 w-full sm:w-80 text-center transform transition hover:scale-105">
+					<div className="h-80 bg-white shadow-lg rounded-lg p-2 m-4 w-full sm:w-80 text-center transform transition hover:scale-105">
 						<img
 							src="https://img-cdn.pixlr.com/image-generator/history/66a7c673ce5ce592532e8ffa/0145907e-66d7-499d-9f3f-59bf7ae10685/preview.webp"
 							alt="User-Friendly Interface"
@@ -63,7 +63,7 @@ export function Home() {
 				</div>
 			</section>
 
-			<section className="bg-gradient-to-r from-white-500 to-white-600 dark:from-purple-700 dark:to-blue-900 py-16 text-gray-700">
+			<section className="bg-gradient-to-r from-white-500 to-white-600 py-16 text-gray-700">
 				<div className="mx-auto flex flex-col lg:flex-row items-center px-6 py-6">
 					<div className="lg:w-1/2 lg:flex lg:justify-center lg:items-center">
 						<img
@@ -80,7 +80,7 @@ export function Home() {
 			</section>
 
 			{/* Testimonial Section */}
-			<section className="bg-gradient-to-r from-white-500 to-white-600 dark:from-purple-700 dark:to-blue-900 py-16 text-gray-700">
+			<section className="bg-gradient-to-r from-white-500 to-white-600 py-16 text-gray-700">
 				<div className="mx-auto text-center px-6">
 					<figure className="max-w-screen-md mx-auto mb-8">
 						<svg className="h-12 mx-auto mb-3 text-gray-200 dark:text-gray-400" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +96,7 @@ export function Home() {
 			</section>
 
 			{/* Call to Action Section */}
-			<section className="bg-gradient-to-r from-white-500 to-white-600 dark:from-purple-700 dark:to-blue-900 py-16 text-gray-700">
+			<section className="bg-gradient-to-r from-white-500 to-white-600 py-16 text-gray-700">
 				<div className="mx-auto text-center px-6">
 					<h2 className="text-3xl font-extrabold mb-6">
 						Create Your Account Now 🎉
@@ -111,7 +111,7 @@ export function Home() {
 			</section>
 
 			{/* Footer */}
-			<footer className="bg-gray-100 dark:bg-gray-900 py-10">
+			<footer className="bg-gray-100 py-10">
 				<div className="mx-auto text-center max-w-screen-lg">
 					{/* Footer Logo and Description */}
 					<div className="mb-8">
